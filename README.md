@@ -96,6 +96,3 @@ Vite proxy forwards `"/api"` to the backend at `http://localhost:8000` (configur
 ## Notes
 - All prices are displayed in LKR. The estimator blends heuristics with AI when available; it does not pull live MLS data by default.
 - Tag pricing adjustments are heuristic and additive (e.g., sea view +6%, pool +4%, needs renovation −7%). A provenance entry (`tag_adjustment`) documents the applied net adjustment.
-- To avoid committing build artifacts and caches, ensure a `.gitignore` exists at repo root.
-## License
-MIT (or your preferred license).
